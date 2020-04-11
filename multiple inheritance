@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+#include<conio.h>
+class intro
+{public:
+	intro()
+	{cout<<"my name is krishan "<<endl;
+	}
+	
+};
+ 
+class adress
+{public:
+	adress()
+	{cout<<"i am from mahendergarh";
+	}
+};
+
+class stdent: public intro,public adress
+{
+};
+
+int main()
+{ stdent s1;
+   return 0;
+}
